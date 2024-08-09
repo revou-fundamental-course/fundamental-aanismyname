@@ -1,0 +1,70 @@
+/* ini CSS */
+
+header {
+    text-align: center;
+}
+
+form {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(204, 223, 239);
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    border: 1px solid; border-radius: 10px;
+    margin: 5px;
+    padding: 50px;
+    text-align: justify;
+}
+
+.form-button-container {
+    margin-right: ;
+    margin-top: 10px;
+    margin-left: ;
+    margin-bottom: ;
+    margin-bottom: 15px;
+}
+
+.button-submit {
+    background-color: palegreen;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.button-reset {
+    background-color: hwb(0 44% 0%);
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    color text-align: aliceblue;
+}
+
+
+input [type=number] {
+    margin: 2px;
+    padding: 5px 12px;
+    width: 97%;
+    height: 20%;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15 px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.A {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
