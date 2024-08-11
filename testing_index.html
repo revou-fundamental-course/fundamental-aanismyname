@@ -18,25 +18,31 @@
             </article>
     
             <form>
-                <div>
+                <div class="container">
                     <h3>Jenis kelamin</h2>
-                     <input type="radio" id="Laki-laki" name="Jenis kelamin" value="Laki-laki">
-                    <label for="html">Laki-laki</label>                
-                    <input type="radio" id="Perempuan" name="Jenis kelamin" value="Perempuan">
-                    <label for="css">Perempuan</label>
+                    <input type="radio" id="Pria" name="gender" value="Pria">Pria
+                    <!-- <label for="html">Pria</label>                 -->
+                    <input type="radio" id="Wanita" name="gender" value="Wanita">Wanita
+                    <!-- <label for="css">Wanita</label> -->
                 </div>
-    
+                    <br>
+                    <br>
                 <div>
-                    <h3>Berat badan</h2>
-                    <input type="number">
+                    <!-- <h3>Berat badan (Kg)</h3> -->
+                    <label for="weight">Berat Badan (kg)</label><br>
+                    <input type="number" id="weight">
                     <br>
-                    <h3>Tinggi badan</h2>
-                    <input type="number">
                     <br>
-                    <h3>Umur</h2>
-                    <input type="number">
+                    <!-- <h3>Tinggi badan (Cm)</h3>  -->
+                    <label for="weight">Tinggi badan (Cm)</label><br>
+                    <input type="number" id="height">
+                    <br>
+                    <br>
+                    <!-- <h3>Umur (Tahun)</h3> -->
+                    <label for="weight">Umur (Tahun)</label><br>
+                    <input type="number" id="age">
                 </div>
-    
+                    <br>
                 <div class="form-button-container">
                     <button class="button-submit">Submit</button>
                     <button class="button-reset">Reset</button>
@@ -45,7 +51,7 @@
     
             <article>
                     <header>
-                        <h2 class="A">Form Information</h2>
+                        <h2 class="Judul 2">Form Information</h2>
                     </header>
         
                     <p>Formulir ini meminta informasi dasar seperti jenis kelamin, berat badan, tinggi badan, dan umur. Jenis kelamin diperlukan karena dapat mempengaruhi perhitungan tertentu, seperti estimasi kebutuhan kalori atau komposisi tubuh. Berat badan dan tinggi badan digunakan untuk menghitung Indeks Massa Tubuh (BMI) yang membantu menilai status berat badan seseorang. Sementara itu, umur penting untuk menyesuaikan rekomendasi kesehatan dan kebugaran, karena kebutuhan nutrisi dan metabolisme tubuh berubah seiring bertambahnya usia.</p>
